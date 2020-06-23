@@ -3,7 +3,7 @@ import string
 import requests
 
 url='https://lf8q0kx152.execute-api.us-east-2.amazonaws.com/default/computeFitnessScore'
-x=requests.post(url,json={"qconfig":"4 6 1 5 2 8 3 7","userID":838442,"githubLink":"https://github.com/iginitin/eight_queen_ga/blob/master/eight_queen_ga_code.py"})
+x=requests.post(url,json={"qconfig":"3 6 4 2 0 5 7 1","userID":838442,"githubLink":"https://github.com/iginitin/eight_queen_ga/blob/master/eight_queen_ga_code.py"})
 print(x.text)
 
 
