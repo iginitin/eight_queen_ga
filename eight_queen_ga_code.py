@@ -83,7 +83,8 @@ def genetic_queen(population, fitness):
     return new_population
 
 def print_individual(x):
-    print(*x)
+    output = [y - 1 for y in x]
+    print(*output)
 
 
 if __name__ == "__main__":
